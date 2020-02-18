@@ -38,9 +38,9 @@ echo ("ton nom c est ".$nom);// teste a sup
                 {
                     echo("lemail=".$mailexist);
                     
-                        $insertmbr = $bdd ->prepare("INSERT INTO `membre` (`prenom`, `nom`, `mail`, `motdepasse`, `sex`) VALUES
-                        ('$prenom', '$nom', '$mail', '$mdp', '');");//on prepare le sql 
-                        $insertmbr->execute(array($nom, $prenom, $mail, $mdp));// on execute 
+                        $insertmbr = $bdd ->prepare("INSERT INTO `membre` (`prenom`, `nom`, `mail`, `motdepasse`, `jour`, `mois`, `annee` ) VALUES
+                        ('$prenom', '$nom', '$mail', '$mdp', '$jour', '$mois', '$annee');");//on prepare le sql 
+                        $insertmbr->execute(array($nom, $prenom, $mail, $mdp, $jour, $mois, $annee));// on execute 
                         $erreur = "Votre compte a bien été créer";	
                         var_dump($erreur);// si tout va bien ca s affiche 
                    
