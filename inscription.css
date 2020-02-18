@@ -1,0 +1,54 @@
+.boxin {
+    background-color: rgb(240, 240, 240);
+    width: 600px;
+    height: 550px;
+    position: relative;
+    top: 200px;
+    margin-left: 60%;
+}
+
+.formedenom {
+    position: static;
+    margin-top: 70px;
+    border-color: rgb(240, 240, 240);
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.formedeprenom {
+    position: static;
+    border-color: rgb(240, 240, 240);
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.formedemail {
+    position: static;
+    border-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.formedemotdepasse {
+    position: relative;
+    border-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.textedegratui {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    size: 100px;
+    font-weight: bold;
+}
+
+.date {
+    width: 56px;
+    height: 25px;
+}
